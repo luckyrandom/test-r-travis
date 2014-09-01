@@ -34,7 +34,7 @@ deploy:
   provider: releases
   api_key:
     secure: j88u99CWhMfa2kFBbD/F1p9Cg8FKRHZ65UVpQQ9T8J/5kYXU0D3KppLvGW+MaTfbYdzaU44/BFXfxSWs0FbpPNGuNNJn3GBhFtmx1fwgJUX6SS12wcHbL9Qn2wT2vWWKZtyguavr2DvH7xwd1pT0pEo6Y8YY5Q5gMTmmoSAWBYI=
-  file: ${GITHUB_RELEASE_FILE}
+  file: ./_build/fakepackage_0.1.1.tar.gz
   on:
     repo: luckyrandom/test-r-travis
     tags: true
