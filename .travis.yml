@@ -23,7 +23,7 @@ after_failure:
 
 after_success:
   - ./travis-tool.sh build_pkg
-  - gem install dpl
+  - ./travis-tool.sh deploy
 
 notifications:
   email:
