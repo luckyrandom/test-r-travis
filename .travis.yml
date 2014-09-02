@@ -9,7 +9,7 @@ language: c
 env:
   global:
     - GITHUB_RELEASE_FILE = ./_build/fakepackage_0.1.1.tar.gz
-    - secure: "knW2jt0dIQ9l4LkAxCcZDhJyi/lLf6jRpXBM+I+NoSuGhrbOuB8uiGA4CEs/CY0HUcofXswO/qzZWQwMzRtXaRRUVL4lr13mWZU7snrgsCfGUN1bdp1H2ZP/Y8kuHkfHwNaYpO5HGYXFpjlOEBT5OLZ2vnIJOl/zDPS1+oaZ+2I="
+    - secure: "G+UsY3jHUqUc2Snbl6WIFDcUyO4RxyiWCducqDZY/6ykwk0Y9mvOgY2qsfNQFSguzSo/ZE4D1SYL4DermDFwNtmOOC8CfIsgFegpoCTBDwwTKOiD0FjuUlOwbe44nTsDqy68Jgg63EbR+sjnS0joJNsJy2rVG9vrJm1cN65K624="
 
 before_install:
   - curl -OL http://raw.github.com/luckyrandom/r-travis/master/scripts/travis-tool.sh
