@@ -25,6 +25,9 @@ after_failure:
 after_success:
   - ./travis-tool.sh build_pkg
   - ./travis-tool.sh deploy ./_build/fakepackage_0.1.1.tar.gz
+  - cd ./_build/
+  - ls
+  - cd ..
 
 notifications:
   email:
