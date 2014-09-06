@@ -28,6 +28,8 @@ after_success:
   - cd ./_build/
   - ls
   - cd ..
+  - export TEST_ENVIROMENT=3.14
+  - echo ${TEST_ENVIROMENT}
 
 notifications:
   email:
