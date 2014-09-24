@@ -32,6 +32,8 @@ after_success:
   - echo ${TEST_ENVIROMENT}
   - FOO=bar
   - echo ${FOO}
+  - FOO=foooo
+  - echo ${FOO}
 
 notifications:
   email:
