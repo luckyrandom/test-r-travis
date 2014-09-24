@@ -1,6 +1,6 @@
 Package: fakepackage
 Title: Test package for r-travis (http://github.com/craigcitro/r-travis)
-Bump-version: 0.2.*
+Version: 0.3.0
 Author: Craig Citro <craigcitro@google.com>
 Maintainer: Craig Citro <craigcitro@google.com>
 Depends:
