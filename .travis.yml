@@ -30,6 +30,8 @@ after_success:
   - cd ..
   - export TEST_ENVIROMENT=3.14
   - echo ${TEST_ENVIROMENT}
+  - FOO=bar
+  - echo ${FOO}
 
 notifications:
   email:
